@@ -66,4 +66,34 @@ arqInterior, p{
 
 #sobre{
     padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#servicos{
+    background-color: #FCF2E9;
+}
+
+#serv{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 132%;
+/* or 63px */
+
+letter-spacing: -0.02em;
+
+color: #815757;
+}
+
+#topo{
+    max-width: 20%;
+}
+
+#serv1{
+    height: 411px;
+}
+
+#vazio{
+    height: 55px;
 }

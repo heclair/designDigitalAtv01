@@ -6,12 +6,28 @@
     line-height: 132%;
 }
 
-arqInterior, p{
+#arqInterior, p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 132%;
+}
+
+#arqServ, h2{
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 132%;
+    color: #815757;
+    padding-top: 20px;
+}
+
+#arqServ, h3{
+    font-family: 'Poppins';
+    font-size: 34px;
+    color: black;
 }
 
 
@@ -42,13 +58,11 @@ arqInterior, p{
 #roxo{
     background-color: #f1f3fb;
     padding-bottom: 100px;
-    border-radius: 25px;
 }
 
 #roxo3{
     background-color: #f1f3fb;
     padding-bottom: 100px;
-    border-radius: 25px;
 }
 
 #divisor{
@@ -63,92 +77,35 @@ arqInterior, p{
     padding-left: 60px;
 }
 
-#arqInterior h1{
+#subtserv{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 132%;
-    /* identical to box height, or 32px */
-    letter-spacing: -0.02em;
-
-    color: #000000;
-}
-
-#arqInterior1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 132%;
-    /* identical to box height, or 32px */
+    line-height: 36px;
+    display: flex;
+    align-items: flex-end;
     letter-spacing: -0.02em;
     color: #000000;
 }
+
 
 
 /* SOBRE MIM */
 
 #sobre{
     padding-top: 60px;
-    padding-bottom: 60px;
 }
 
-#sobre-titulo{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 140%;
-    /* identical to box height, or 45px */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
+#rosa{
+    background-color: #fcf2e9;
+    padding-top: 50px;
 }
 
-#sobre1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 140%;
-    /* or 25px */
-
-    letter-spacing: -0.02em;
-
-    color: #000000;
-}
-
-#servicos{
-    background-color: #FCF2E9;
-}
-
-#serv{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 132%;
-    padding-top: 60px;
-/* or 63px */
-
-letter-spacing: -0.02em;
-
-color: #815757;
-}
-
-#topo{
-    max-width: 20%;
-    padding-bottom: 30px;
-}
-
-#serv1{
-    height: 411px;
-}
-
-#vazio{
-    height: 55px;
+#rosaservico{
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
 }
 
 #falecom{
@@ -170,7 +127,7 @@ color: #815757;
 
 }
 
-#prazer, p{
+#prazer{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -250,14 +207,6 @@ color: #815757;
     padding-bottom: 15px;
 }
 
-#tag{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 132%;
-    /* or 48px */
-    letter-spacing: -0.02em;
-    color: #815757;
-    padding-top: 100px;
+#serv1{
+    height: 100px;
 }

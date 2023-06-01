@@ -42,11 +42,13 @@ arqInterior, p{
 #roxo{
     background-color: #f1f3fb;
     padding-bottom: 100px;
+    border-radius: 25px;
 }
 
 #roxo3{
     background-color: #f1f3fb;
     padding-bottom: 100px;
+    border-radius: 25px;
 }
 
 #divisor{
@@ -61,12 +63,61 @@ arqInterior, p{
     padding-left: 60px;
 }
 
+#arqInterior h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 132%;
+    /* identical to box height, or 32px */
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+#arqInterior1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 132%;
+    /* identical to box height, or 32px */
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
 
 /* SOBRE MIM */
 
 #sobre{
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+#sobre-titulo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    /* identical to box height, or 45px */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+#sobre1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
 }
 
 #servicos{
@@ -88,6 +139,7 @@ color: #815757;
 
 #topo{
     max-width: 20%;
+    padding-bottom: 30px;
 }
 
 #serv1{
@@ -96,4 +148,103 @@ color: #815757;
 
 #vazio{
     height: 55px;
+}
+
+#falecom{
+    background-color: #BF6854;
+    padding-top: 63px;
+    padding-bottom: 69px;
+}
+
+#fale, h1{
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.08em;
+    
+    color: #FFFFFF;
+
+}
+
+#prazer, p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+
+    color: #FFFFFF;
+}
+
+#contato{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+}
+
+#contato-nome, #contato-email {
+    float: left;
+    width: 100%;
+    margin-bottom: 3vh;
+    box-shadow: white 0px 3px;
+    height: 5vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#contato-mensagem {
+    float: left;
+    width: 100%;
+    margin-bottom: 3vh;
+    box-shadow: white 0px 3px;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+#contato-enviar {
+    align-items: center;
+    background: #6569F6;
+	color: white;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    margin-top: 10px;
+    max-height: 50px;
+    max-width: 136px;
+    font-family: 'Merriweather';
+    margin-top: 1.7vh;
+}
+
+#emailma{
+    padding-top: 59px;
+    padding-bottom: 100px;
+}
+
+#siga{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+}
+
+#logoSite{
+    padding-bottom: 15px;
 }

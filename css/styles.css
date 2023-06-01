@@ -17,38 +17,30 @@ arqInterior, p{
 
 /* NAV BAR */
 
-#nav1{
-   
-    border-top: 25px solid #ffffff;
-    
+#nav1{ 
+    border-top: 25px solid #ffffff;   
 }
 
 #nav2{
-    background-color: #fcf2e9
+    background-color: #F1E9DC
 }
 
 /*CONTAINER P1*/
 
 #contBranco{
-    background-color: #DDE1F4;;
+    background-color: #F6F3F3;;
     padding-bottom: 25px;
 }
 
-#roxo1{
-    background-color: #DDE1F4;
+#fundo1{
+    background-color: #F6F3F3
+    ;
     padding-bottom: 50px;
 }
 
-#roxo{
-    background-color: #f1f3fb;
-    padding-bottom: 100px;
-    border-radius: 25px;
-}
-
-#roxo3{
-    background-color: #f1f3fb;
-    padding-bottom: 100px;
-    border-radius: 25px;
+#fundo2{
+    background-color: white;
+    padding-bottom: 50px;
 }
 
 #divisor{
@@ -71,8 +63,8 @@ arqInterior, p{
     line-height: 132%;
     /* identical to box height, or 32px */
     letter-spacing: -0.02em;
-
     color: #000000;
+    padding-top: 20px;
 }
 
 #arqInterior1{
@@ -100,10 +92,7 @@ arqInterior, p{
     font-weight: 500;
     font-size: 32px;
     line-height: 140%;
-    /* identical to box height, or 45px */
-
     letter-spacing: -0.02em;
-
     color: #000000;
 }
 
@@ -111,17 +100,19 @@ arqInterior, p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 140%;
-    /* or 25px */
-
+    font-size: 20px;
+    line-height: 160%;
     letter-spacing: -0.02em;
+    text-align: justify;
 
     color: #000000;
 }
 
+/* SERVIÇOS */
+
 #servicos{
-    background-color: #FCF2E9;
+    background-color: #F6F3F3
+    ;
 }
 
 #serv{
@@ -131,11 +122,8 @@ arqInterior, p{
     font-size: 48px;
     line-height: 132%;
     padding-top: 60px;
-/* or 63px */
-
-letter-spacing: -0.02em;
-
-color: #815757;
+    letter-spacing: -0.02em;
+    color: #815757;
 }
 
 #topo{
@@ -144,30 +132,29 @@ color: #815757;
 }
 
 #serv1{
-    height: 411px;
+    height: 200px;
 }
 
 #vazio{
     height: 55px;
 }
 
+/* FALE COM */
+
 #falecom{
-    background-color: #BF6854;
+    background-color: #8F5555;
     padding-top: 63px;
     padding-bottom: 69px;
 }
 
 #fale, h1{
-
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 53px;
     letter-spacing: 0.08em;
-    
     color: #FFFFFF;
-
 }
 
 #prazer, p{
@@ -176,20 +163,16 @@ color: #815757;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     letter-spacing: 0.08em;
-
     color: #FFFFFF;
 }
 
 #contato{
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-    /* identical to box height */
     letter-spacing: -0.02em;
 }
 
@@ -215,8 +198,8 @@ color: #815757;
 
 #contato-enviar {
     align-items: center;
-    background: #6569F6;
-	color: white;
+    background: #F1E9DC;
+	color: #8F5555;
     border-radius: 15px;
     border: none;
     padding-top: 5px;
@@ -242,7 +225,6 @@ color: #815757;
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-    /* identical to box height */
     letter-spacing: -0.02em;
 }
 
@@ -256,8 +238,26 @@ color: #815757;
     font-weight: 700;
     font-size: 36px;
     line-height: 132%;
-    /* or 48px */
     letter-spacing: -0.02em;
     color: #815757;
     padding-top: 100px;
+}
+
+#divisao{
+    padding-top: 30px;
+}
+
+/*PÁGINA PROJETOS*/
+
+#arqtexto{
+    font-family: 'Poppins';
+    font-style: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    /* or 34px */
+    text-align: justify;
+    letter-spacing: -0.02em;
+    color: #5c5b5b;
+    padding-top: 50px;
 }

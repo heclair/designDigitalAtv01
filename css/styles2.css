@@ -6,7 +6,7 @@
     line-height: 132%;
 }
 
-#arqInterior, p{
+arqInterior, p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -14,71 +14,49 @@
     line-height: 132%;
 }
 
-#arqServ, h2{
-    font-family: 'Poppins';
-    font-style: bold;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 132%;
-    color: #815757;
-    padding-top: 20px;
-}
-
-#arqServ, h3{
-    font-family: 'Poppins';
-    font-size: 34px;
-    color: black;
-}
-
 
 /* NAV BAR */
 
-#nav1{
-   
-    border-top: 25px solid #ffffff;
-    
+#nav1{ 
+    border-top: 25px solid #ffffff;   
 }
 
 #nav2{
     background-color: #F1E9DC
 }
 
+
 /*CONTAINER P1*/
 
 #contBranco{
-    background-color: #DDE1F4;;
+    background-color: #F6F3F3;;
     padding-bottom: 25px;
 }
 
-#divisor{
-    padding-top: 50px;
+#fundo1{
+    background-color: #F6F3F3
+    ;
+    padding-bottom: 50px;
 }
 
-/* SERVIÇOS */
+#fundo2{
+    background-color: white;
+    padding-bottom: 50px;
+}
 
-#subtserv{
+#arqInterior1{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 24px;
-    line-height: 36px;
-    display: flex;
-    align-items: flex-end;
+    line-height: 132%;
+    /* identical to box height, or 32px */
     letter-spacing: -0.02em;
     color: #000000;
 }
 
-#rosa{
-    background-color: #F6F3F3;
-    padding-top: 50px;
-}
 
-#fundoserv01{
-    background: white;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 25px;
-    padding-top: 10px;
-}
+/*PÁGINA PROJETOS*/
 
 #arqtexto{
     font-family: 'Poppins';
@@ -86,11 +64,44 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 140%;
-
     text-align: justify;
     letter-spacing: -0.02em;
     color: #5c5b5b;
+    padding-top: 30px;
 }
+
+
+/* SERVIÇOS */
+
+#servicos{
+    background-color: #F6F3F3
+    ;
+}
+
+#serv{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 132%;
+    padding-top: 60px;
+    letter-spacing: -0.02em;
+    color: #815757;
+}
+
+#topo{
+    max-width: 20%;
+    padding-bottom: 30px;
+}
+
+#serv1{
+    height: 200px;
+}
+
+#vazio{
+    height: 55px;
+}
+
 
 /* FALE COM */
 
@@ -101,32 +112,26 @@
 }
 
 #fale, h1{
-
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 53px;
     letter-spacing: 0.08em;
-    
     color: #FFFFFF;
-
 }
 
-#prazer{
+#prazer, p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     letter-spacing: 0.08em;
-
     color: #FFFFFF;
 }
 
 #contato{
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -184,7 +189,6 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-    /* identical to box height */
     letter-spacing: -0.02em;
 }
 
@@ -192,10 +196,17 @@
     padding-bottom: 15px;
 }
 
-#serv1{
-    height: 100px;
+#tag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 132%;
+    letter-spacing: -0.02em;
+    color: #815757;
+    padding-top: 100px;
 }
 
-#vazio{
-    height: 55px;
+#divisao{
+    padding-top: 30px;
 }
